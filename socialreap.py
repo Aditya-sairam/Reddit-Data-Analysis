@@ -1,7 +1,7 @@
 from socialreaper import Reddit
 from socialreaper.tools import flatten
 
-rdt = Reddit("hyVUgX-Bs0auFFH7DSS0ig", "V0Trr9v1hRlzW2VsZXqecbYP-YCkFg")
+rdt = Reddit("", "")
 
 comments = rdt.subreddit_thread_comments("all", thread_count=50,
                                          comment_count=500, thread_order="top", comment_order="top",
